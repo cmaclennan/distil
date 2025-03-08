@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "589614175790",
+    "project_id": "distil-hzs55k",
+    "storage_bucket": "distil-hzs55k.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589614175790:android:9ab74a7d23bfd349f671bf",
+        "android_client_info": {
+          "package_name": "com.codeforge.distil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589614175790-b3dq7b20ope9eajkd1voaald00mavia9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeforge.distil",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "589614175790-4saq43u8lugaqarnd4kurkfn7666h2vv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ4qSHEPiQfBeLR8dFbRe2hcJKPAlaYc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589614175790-4saq43u8lugaqarnd4kurkfn7666h2vv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589614175790-h6fqopkilp62jfa02a0b1qj99p0k4hkr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.codeforge.distil"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

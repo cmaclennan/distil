@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Alternatively, build your application passing the --base-href parameter
+    specifying the new root path of your web app.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="DISTIL | The Distillers Toolki">
+
+  <script src="https://cdn.jsdelivr.net/npm/lottie-web@5.7.8/build/player/lottie.min.js"></script>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+var animationContainer = document.createElement('div');
+
+animationContainer.id = 'lottie-animation';
+
+document.body.appendChild(animationContainer);
+
+var animationData = {
+
+container: animationContainer,
+
+renderer: 'svg',
+
+loop: true,
+
+autoplay: true,
+
+path: 'https://app.lottiefiles.com/animation/a5efe979-f87d-4503-ab73-7d691df710ba',
+
+};
+
+lottie.loadAnimation(animationData);
+
+});
+
+</script>
+
+<style>
+
+#lottie-animation {
+
+width: 300px; /* Set the width to 300px */
+
+margin: 0 auto; /* Center the container horizontally */
+
+}
+
+</style>
+
+  <meta name="robots" content="noindex" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="App_Icon_-_180x180.png" sizes="any"/>
+  
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="DISTIL" />
+  <meta property="og:description" content="The distillers toolkit" />
+  <meta property="og:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" /> 
+  <meta name="twitter:title" content="DISTIL" />
+  <meta name="twitter:description" content="The distillers toolkit" />
+  <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> DISTIL </title>
+  <meta name="description" content="The distillers toolkit" />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f4f8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#f1f4f8">
+
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+  
+  
+  
+  
+  
+  <script>
+    {{flutter_bootstrap_js}}
+  </script>
+</body>
+</html>
